@@ -360,7 +360,6 @@ private:
   
   byte currentSize = GRANDEUR_NORMALE;
   boolean isValidChar(byte index);
-  // boolean isDiacritic(unsigned char caractere);  // Obsolète depuis le 26/02/2023
   boolean isVisualisable(unsigned long code);
   void writeBytesP(int n);  // Pn, Pr, Pc
   

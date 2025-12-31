@@ -12,12 +12,10 @@
   [
     {
       "name": "Savino Pio Liguori",
-      "email": "savino.liguori@gmail.com",
-      "url": ""
+      "email": "savino.liguori@gmail.com"
     }
   ],
-  "license": "GPLv3",
-  "homepage": "",
+  "license": "GPL-3.0-or-later",
   "dependencies": {},
   "frameworks": "*",
   "platforms": "*"
