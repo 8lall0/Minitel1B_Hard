@@ -1,41 +1,16 @@
 ////////////////////////////////////////////////////////////////////////
 /*
-   Minitel1B_Hard - Fichier source - Version du 12 mars 2023 à 04h55
+   Minitel1B_Hard
    Copyright 2016-2023 - Eric Sérandour
    https://entropie.org/3615/
    
-   Remerciements à :
+   Thanks to:
    BorisFR, iodeo
-
-   Documentation utilisée :
-   Spécifications Techniques d'Utilisation du Minitel 1B
-   http://543210.free.fr/TV/stum1b.pdf
-
-////////////////////////////////////////////////////////////////////////
-
-   This program is free software: you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation, either version 3 of the License, or
-   (at your option) any later version.
-
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 ////////////////////////////////////////////////////////////////////////
+
 
 #include "Minitel1B_Hard.h"
-
-////////////////////////////////////////////////////////////////////////
-/*
-   Public
-*/
-////////////////////////////////////////////////////////////////////////
-
 Minitel::Minitel(HardwareSerial& serial) : mySerial(serial) {
   // A la mise sous tension du Minitel, la vitesse des échanges entre
   // le Minitel et le périphérique est de 1200 bauds par défaut.
