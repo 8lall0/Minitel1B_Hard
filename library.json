@@ -1,6 +1,6 @@
 {
   "name": "Minitel1B_Hard",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Minitel Library for Arduino (with HardwareSerial)",
   "keywords": "minitel, esp32, arduino",
   "repository":
